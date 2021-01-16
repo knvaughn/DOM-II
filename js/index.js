@@ -85,3 +85,4 @@ sectionGroup.forEach((section) => {
 destinationGroup.forEach((destination) => {
     destination.addEventListener('mousedown', highlightDestination);
 });
+gsap.from(".intro img", {duration: 2, x: 5000, ease: "elastic"});
